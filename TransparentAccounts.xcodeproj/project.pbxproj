@@ -7,8 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D2F4AEC1E5E288500ECDC20 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F4AEB1E5E288500ECDC20 /* Account.swift */; };
+		5D2F4AF11E5E324E00ECDC20 /* AccountTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F4AF01E5E324E00ECDC20 /* AccountTest.swift */; };
+		5D2F4AF31E62E7D100ECDC20 /* CSAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F4AF21E62E7D100ECDC20 /* CSAPIClient.swift */; };
+		5D2F4AF51E62FBFC00ECDC20 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F4AF41E62FBFC00ECDC20 /* Errors.swift */; };
+		5D2F4AF71E630EC600ECDC20 /* DateConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F4AF61E630EC600ECDC20 /* DateConverter.swift */; };
+		5D2F4AFB1E6314F400ECDC20 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F4AFA1E6314F400ECDC20 /* APIClient.swift */; };
+		5D2F4AFD1E63154E00ECDC20 /* DummyAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F4AFC1E63154E00ECDC20 /* DummyAPIClient.swift */; };
+		5D2F4AFF1E631CA600ECDC20 /* DateConverterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F4AFE1E631CA600ECDC20 /* DateConverterTest.swift */; };
+		5D2F4B011E632F1F00ECDC20 /* AccountTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F4B001E632F1F00ECDC20 /* AccountTableViewController.swift */; };
+		5D2F4B031E63314B00ECDC20 /* AccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F4B021E63314B00ECDC20 /* AccountCell.swift */; };
+		5D2F4B051E63443300ECDC20 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F4B041E63443300ECDC20 /* AccountViewController.swift */; };
+		5D2F4B091E63746E00ECDC20 /* AccountTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F4B081E63746E00ECDC20 /* AccountTabBarViewController.swift */; };
+		5D2F4B0B1E63832E00ECDC20 /* MainSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F4B0A1E63832E00ECDC20 /* MainSplitViewController.swift */; };
 		5D71EE8F1E5B91D300708E05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D71EE8E1E5B91D300708E05 /* AppDelegate.swift */; };
-		5D71EE911E5B91D300708E05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D71EE901E5B91D300708E05 /* ViewController.swift */; };
 		5D71EE941E5B91D300708E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D71EE921E5B91D300708E05 /* Main.storyboard */; };
 		5D71EE971E5B91D300708E05 /* TransparentAccounts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D71EE951E5B91D300708E05 /* TransparentAccounts.xcdatamodeld */; };
 		5D71EE991E5B91D300708E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D71EE981E5B91D300708E05 /* Assets.xcassets */; };
@@ -35,9 +47,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D2F4AEB1E5E288500ECDC20 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		5D2F4AF01E5E324E00ECDC20 /* AccountTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountTest.swift; sourceTree = "<group>"; };
+		5D2F4AF21E62E7D100ECDC20 /* CSAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSAPIClient.swift; sourceTree = "<group>"; };
+		5D2F4AF41E62FBFC00ECDC20 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		5D2F4AF61E630EC600ECDC20 /* DateConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateConverter.swift; sourceTree = "<group>"; };
+		5D2F4AFA1E6314F400ECDC20 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		5D2F4AFC1E63154E00ECDC20 /* DummyAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyAPIClient.swift; sourceTree = "<group>"; };
+		5D2F4AFE1E631CA600ECDC20 /* DateConverterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateConverterTest.swift; sourceTree = "<group>"; };
+		5D2F4B001E632F1F00ECDC20 /* AccountTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountTableViewController.swift; sourceTree = "<group>"; };
+		5D2F4B021E63314B00ECDC20 /* AccountCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountCell.swift; sourceTree = "<group>"; };
+		5D2F4B041E63443300ECDC20 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		5D2F4B081E63746E00ECDC20 /* AccountTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountTabBarViewController.swift; sourceTree = "<group>"; };
+		5D2F4B0A1E63832E00ECDC20 /* MainSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSplitViewController.swift; sourceTree = "<group>"; };
 		5D71EE8B1E5B91D300708E05 /* TransparentAccounts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransparentAccounts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D71EE8E1E5B91D300708E05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5D71EE901E5B91D300708E05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5D71EE931E5B91D300708E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D71EE961E5B91D300708E05 /* TransparentAccounts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TransparentAccounts.xcdatamodel; sourceTree = "<group>"; };
 		5D71EE981E5B91D300708E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,6 +100,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D2F4AEA1E5E286000ECDC20 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5D2F4AEB1E5E288500ECDC20 /* Account.swift */,
+				5D2F4AF41E62FBFC00ECDC20 /* Errors.swift */,
+				5D2F4AF61E630EC600ECDC20 /* DateConverter.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		5D2F4AEF1E5E321800ECDC20 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5D2F4AF01E5E324E00ECDC20 /* AccountTest.swift */,
+				5D2F4AFE1E631CA600ECDC20 /* DateConverterTest.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		5D2F4AF81E63128000ECDC20 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D2F4B001E632F1F00ECDC20 /* AccountTableViewController.swift */,
+				5D2F4B021E63314B00ECDC20 /* AccountCell.swift */,
+				5D2F4B041E63443300ECDC20 /* AccountViewController.swift */,
+				5D2F4B081E63746E00ECDC20 /* AccountTabBarViewController.swift */,
+				5D2F4B0A1E63832E00ECDC20 /* MainSplitViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5D2F4AF91E63149A00ECDC20 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5D2F4AFA1E6314F400ECDC20 /* APIClient.swift */,
+				5D2F4AFC1E63154E00ECDC20 /* DummyAPIClient.swift */,
+				5D2F4AF21E62E7D100ECDC20 /* CSAPIClient.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
 		5D71EE821E5B91D300708E05 = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +164,10 @@
 		5D71EE8D1E5B91D300708E05 /* TransparentAccounts */ = {
 			isa = PBXGroup;
 			children = (
+				5D2F4AF91E63149A00ECDC20 /* API */,
+				5D2F4AF81E63128000ECDC20 /* ViewControllers */,
+				5D2F4AEA1E5E286000ECDC20 /* Data */,
 				5D71EE8E1E5B91D300708E05 /* AppDelegate.swift */,
-				5D71EE901E5B91D300708E05 /* ViewController.swift */,
 				5D71EE921E5B91D300708E05 /* Main.storyboard */,
 				5D71EE981E5B91D300708E05 /* Assets.xcassets */,
 				5D71EE9A1E5B91D300708E05 /* LaunchScreen.storyboard */,
@@ -113,6 +180,7 @@
 		5D71EEA51E5B91D300708E05 /* TransparentAccountsTests */ = {
 			isa = PBXGroup;
 			children = (
+				5D2F4AEF1E5E321800ECDC20 /* Data */,
 				5D71EEA61E5B91D300708E05 /* TransparentAccountsTests.swift */,
 				5D71EEA81E5B91D300708E05 /* Info.plist */,
 			);
@@ -262,9 +330,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2F4AF71E630EC600ECDC20 /* DateConverter.swift in Sources */,
+				5D2F4B031E63314B00ECDC20 /* AccountCell.swift in Sources */,
 				5D71EE971E5B91D300708E05 /* TransparentAccounts.xcdatamodeld in Sources */,
-				5D71EE911E5B91D300708E05 /* ViewController.swift in Sources */,
+				5D2F4B091E63746E00ECDC20 /* AccountTabBarViewController.swift in Sources */,
+				5D2F4AF31E62E7D100ECDC20 /* CSAPIClient.swift in Sources */,
+				5D2F4B0B1E63832E00ECDC20 /* MainSplitViewController.swift in Sources */,
+				5D2F4AFB1E6314F400ECDC20 /* APIClient.swift in Sources */,
+				5D2F4AEC1E5E288500ECDC20 /* Account.swift in Sources */,
+				5D2F4AFD1E63154E00ECDC20 /* DummyAPIClient.swift in Sources */,
 				5D71EE8F1E5B91D300708E05 /* AppDelegate.swift in Sources */,
+				5D2F4AF51E62FBFC00ECDC20 /* Errors.swift in Sources */,
+				5D2F4B011E632F1F00ECDC20 /* AccountTableViewController.swift in Sources */,
+				5D2F4B051E63443300ECDC20 /* AccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +350,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2F4AFF1E631CA600ECDC20 /* DateConverterTest.swift in Sources */,
+				5D2F4AF11E5E324E00ECDC20 /* AccountTest.swift in Sources */,
 				5D71EEA71E5B91D300708E05 /* TransparentAccountsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +589,7 @@
 				5D71EEB81E5B91D300708E05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D71EEB91E5B91D300708E05 /* Build configuration list for PBXNativeTarget "TransparentAccountsTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +598,7 @@
 				5D71EEBB1E5B91D300708E05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D71EEBC1E5B91D300708E05 /* Build configuration list for PBXNativeTarget "TransparentAccountsUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +607,7 @@
 				5D71EEBE1E5B91D300708E05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
